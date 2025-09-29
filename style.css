@@ -1,0 +1,136 @@
+body{
+    font-family: 'Inter',sans-serif;
+}
+
+.navbar{
+   display:flex;
+   justify-content: space-between; 
+   align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+.home .left img{
+    width: 98%;
+}
+.future {
+    display: flex;
+}
+.future .section1{
+    color: hsl(240, 100%, 5%);
+    padding: 20px;
+    text-align: center;
+    width: 20%;
+}
+.future .section2{
+    font-size: 20px;
+    color: hsl(240, 100%, 5%);
+    padding: 20px;
+    text-align: center;
+}
+
+.home .right{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer .retro{
+    display: flex;
+    color: hsl(240, 100%, 5%);
+    margin-right: 0 20px;
+}
+.footer .retro .retro-text{
+    text-align: center;
+    margin: 0 10px;
+}
+.footer .retro img{
+    width: 30%;
+    margin: 0 10px;
+} 
+.footer .retro h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer .retro p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: burlywood;
+}
+.footer .retro h1{
+    color: khaki;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.footer .laptops{
+    display: flex;
+    color: hsl(240, 100%, 5%);
+    margin-right: 0 20px;
+}
+.footer .laptops .laptop-text{
+    text-align: center;
+    margin: 0 10px;
+}
+.footer .laptops img{
+    width: 30%;
+    margin: 0 10px;
+}
+.footer .laptops h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer .laptops p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: burlywood;
+}
+.footer .laptops h1{
+    color: khaki;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.footer .gaming{
+    display: flex;
+    color: hsl(240, 100%, 5%);
+    margin-right: 0 20px;
+}
+.footer .gaming .gaming-text{
+    text-align: center;
+    margin: 0 10px;
+}
+.footer .gaming img{
+    width: 30%;
+    margin: 0 10px;
+}
+.footer .gaming h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer .gaming h1{
+    color: khaki;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.footer .gaming p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: burlywood;
+}
