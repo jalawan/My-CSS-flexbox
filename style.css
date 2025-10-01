@@ -1,7 +1,6 @@
 body{
     font-family: 'Inter',sans-serif;
 }
-
 .navbar{
    display:flex;
    justify-content: space-between; 
@@ -21,10 +20,25 @@ body{
 .home{
     display: flex;
     justify-content: center;
+    gap: 20px;
+    height: 600px;
+    padding: 20px;
 }
 
 .home .left img{
     width: 98%;
+}
+.home .right{
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    align-items: center;
 }
 .future {
     display: flex;
@@ -40,11 +54,6 @@ body{
     color: hsl(240, 100%, 5%);
     padding: 20px;
     text-align: center;
-}
-
-.home .right{
-    background-color: hsl(240, 100%, 5%);
-    color: white;
 }
 .footer{
     display: flex;
@@ -133,4 +142,106 @@ body{
     font-size: 15px;
     margin-top: 20px;
     color: burlywood;
+}
+@media (max-width: 992px) and (min-width: 601px){
+    body {
+        font-size: 12px;
+        background-color: rgb(186, 138, 145);
+    }
+    .home{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        grid-column: span 3;
+    }
+    .left img{
+        width: 100%;
+    }
+    .future{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .future .section1{
+        width: 100%;
+    }
+    .future .section2 button{
+        width: 100%;
+    }
+    .future .section2{
+        flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        grid-column: span 3;
+        width: 100%;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer .retro, .footer .laptops, .footer .gaming{
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media(max-width: 600px) {
+    body {
+        font-size: 10px;
+        background-color: aquamarine;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        text-align: center;
+        grid-column: span 2;
+    }
+    .home{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        grid-column: span 3;
+        align-items: center;
+    }
+    .left img{
+        width: 100%;
+    }
+    .future{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .future .section1{
+        width: 100%;
+    }
+    .future .section2 button{
+        width: 100%;
+    }
+    .future .section2{
+        flex-direction: column;
+    }
+    .right{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+        grid-column: span 3;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .retro, .footer .laptops, .footer .gaming{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
 }
